@@ -7,7 +7,7 @@ namespace PadawansTask3
         public static int Gcd(int a, int b)
         {
             // put your code here
-            
+            /*
             for (int i = a; i > 0; i--)
             {
                 if (a % i == 0)
@@ -17,10 +17,10 @@ namespace PadawansTask3
                         return i;
                     }
                 }
-            }
+            }*/
 
-            /*
-            return b == 0 ? a : Gcd(b, a % b);*/
+            
+            return b == 0 ? a : Gcd(b, a % b);
 
             throw new NotImplementedException();
         }
